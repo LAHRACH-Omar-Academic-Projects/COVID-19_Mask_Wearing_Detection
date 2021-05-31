@@ -1,0 +1,27 @@
+.item {
+    -fx-border-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-width: 0.2px;
+    -fx-border-color: -fx-dark;
+    -fx-padding: 10px 15px;
+    -fx-spacing: 10px;
+}
+
+.info {
+    -fx-alignment: CENTER_LEFT;
+    -fx-spacing: 10px;
+}
+
+.buttons {
+    -fx-alignment: CENTER_RIGHT;
+    -fx-spacing: 10px;
+}
+
+.delete-container, .edit-container {
+    -fx-alignment: CENTER;
+}
+
+.delete-container:hover, .edit-container:hover {
+    -fx-alignment: CENTER;
+    -fx-cursor: hand;
+}

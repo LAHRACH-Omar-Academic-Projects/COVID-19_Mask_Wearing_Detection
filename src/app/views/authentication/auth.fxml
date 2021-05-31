@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import java.net.URL?>
+
+<?import javafx.scene.control.PasswordField?>
+<VBox
+        xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="app.controllers.views.authentication.AuthController"
+        fx:id="authForm"
+        styleClass="auth-form">
+
+    <!-- Title -->
+    <Label fx:id="authTitle" styleClass="auth-title">S'inscrire</Label>
+    <!-- Username Input -->
+    <TextField fx:id="usernameInput" styleClass="username-input" promptText="Username"/>
+    <!-- FullName Input -->
+    <TextField fx:id="fullNameInput" styleClass="fullName-input" promptText="Full name"/>
+    <!-- Email Input -->
+    <TextField fx:id="emailInput" styleClass="email-input" promptText="Email"/>
+    <!-- Password Input -->
+    <PasswordField fx:id="passwordInput" styleClass="password-input" promptText="Password"/>
+    <!-- Auth Button -->
+    <Button fx:id="authBtn" styleClass="auth-btn" text="S'inscrire"/>
+    <!-- Connection Link -->
+    <HBox alignment="CENTER">
+        <Label fx:id="authLinkDesc" styleClass="auth-link-desc">Vous utilisez déjà Je-te-surveille ?</Label>
+        <Label fx:id="authLink" styleClass="auth-link">Connexion</Label>
+    </HBox>
+    <!-- Errors/Warnings/Success Label -->
+    <Label fx:id="infoLabel" styleClass="info-label"/>
+
+    <!-- Styles -->
+    <stylesheets>
+        <URL value="@../../assets/styles/authentication/auth.css"/>
+    </stylesheets>
+</VBox>

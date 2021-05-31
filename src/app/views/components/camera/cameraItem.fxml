@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox
+        xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:id="item"
+        styleClass="item">
+
+    <!-- Item Information -->
+    <StackPane>
+        <HBox styleClass="info" StackPane.alignment="CENTER_LEFT">
+            <!-- Camera Image -->
+            <ImageView fitWidth="18" fitHeight="18">
+                <Image url="@../../../assets/icons/ipCamera.png"/>
+            </ImageView>
+            <!-- Camera Name -->
+            <Label fx:id="cameraName"/>
+        </HBox>
+        <HBox styleClass="buttons" StackPane.alignment="CENTER_RIGHT">
+            <!-- Delete Button -->
+            <HBox fx:id="deleteContainer" styleClass="delete-container">
+                <ImageView fitWidth="15" fitHeight="15">
+                    <Image url="@../../../assets/icons/trashcan.png"/>
+                </ImageView>
+            </HBox>
+            <!-- Edit Button -->
+            <HBox fx:id="editContainer" styleClass="edit-container">
+                <ImageView fitWidth="15" fitHeight="15">
+                    <Image url="@../../../assets/icons/pencil.png"/>
+                </ImageView>
+            </HBox>
+        </HBox>
+    </StackPane>
+</VBox>

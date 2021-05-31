@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import java.net.URL?>
+
+<HBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      styleClass="brand">
+
+    <!-- Logo -->
+    <ImageView fitHeight="110" fitWidth="225">
+        <Image url="@../../assets/icons/logo.png"/>
+    </ImageView>
+
+    <!-- Styles -->
+    <stylesheets>
+        <URL value="@../../assets/styles/sidebar/brand.css"/>
+    </stylesheets>
+</HBox>

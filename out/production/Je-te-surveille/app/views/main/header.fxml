@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import java.net.URL?>
+
+<HBox
+        xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="app.controllers.views.main.HeaderController"
+        styleClass="header">
+
+    <!-- Title -->
+    <Label styleClass="header-title">Ajouter une caméra</Label>
+
+    <!-- Name Input -->
+    <TextField fx:id="nameInput" styleClass="name-input" promptText="Nom du caméra"/>
+
+    <!-- Ip Address Input -->
+    <TextField fx:id="ipAddressInput" styleClass="ipAddress-input" promptText="Adresse IP"/>
+
+    <!-- Port Input -->
+    <TextField fx:id="portInput" styleClass="port-input" promptText="Port"/>
+
+    <!-- Add Button -->
+    <Button fx:id="addBtn" styleClass="add-btn" text="Ajouter"/>
+
+    <!-- Styles -->
+    <stylesheets>
+        <URL value="@../../assets/styles/main/header.css"/>
+    </stylesheets>
+</HBox>

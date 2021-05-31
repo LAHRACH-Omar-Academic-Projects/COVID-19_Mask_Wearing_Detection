@@ -1,0 +1,60 @@
+.header {
+    -fx-spacing: 20;
+    -fx-alignment: CENTER_LEFT;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: -fx-semi-light;
+    -fx-padding: 45px 0px 15px 25px;
+}
+
+.header-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: normal;
+    -fx-font-family: "Arial";
+    -fx-text-fill: -fx-dark;
+}
+
+.name-input, .ipAddress-input, .port-input {
+    -fx-background-color: -fx-control-inner-background;
+    -fx-padding: 6px 15px;
+    -fx-border-color: -fx-middle;
+    -fx-border-width: 0.5px;
+    -fx-border-radius: 3px;
+    -fx-border-style: solid;
+}
+
+.name-input, .ipAddress-input {
+    -fx-pref-width: 120px;
+}
+
+.port-input {
+    -fx-pref-width: 100px;
+}
+
+.name-input:hover, .ipAddress-input:hover, .port-input:hover {
+    -fx-border-color: -fx-semi-dark;
+}
+
+.name-input:focused, .ipAddress-input:focused, .port-input:focused  {
+    -fx-border-color: -fx-blue;
+}
+
+.add-btn {
+    -fx-background-color: transparent;
+    -fx-border-color: -fx-semi-dark;
+    -fx-border-style: solid;
+    -fx-border-radius: 2px;
+    -fx-border-width: 2px;
+    -fx-padding: 3px 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-semi-dark;
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+    -fx-cursor: hand;
+}
+
+.add-btn:hover {
+    -fx-text-fill: -fx-light;
+    -fx-background-color: -fx-semi-dark;
+    -fx-background-insets: 0;
+}

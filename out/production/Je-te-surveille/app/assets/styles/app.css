@@ -1,0 +1,51 @@
+* {
+    -fx-dark: #3c3c3c;
+    -fx-semi-dark: #5d5d5d;
+    -fx-middle: #9d9d9d;
+    -fx-semi-light: #efefef;
+    -fx-light: #FFFFFF;
+    -fx-blue: #6093D2;
+    -fx-red: #E74C3C;
+    -fx-green: #5dd783;
+}
+
+.app {
+    -fx-background-color: -fx-light;
+    -fx-font-family: "Arial";
+}
+
+.scroll-pane {
+    -fx-background-color: -fx-light;
+    -fx-pref-height: 200px;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.scroll-bar:horizontal .track, .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb, .scroll-bar:vertical .thumb {
+    -fx-background-color: -fx-middle;
+    -fx-background-radius: 5em;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: -fx-light;
+}
+
+.list-cell {
+    -fx-background-insets: 0 0 1 0;
+}
+
+.list-cell:empty {
+    -fx-background-insets: 0 ;
+}
+
+.list-cell:selected {
+    -fx-background-color: #FFFFFF;
+}

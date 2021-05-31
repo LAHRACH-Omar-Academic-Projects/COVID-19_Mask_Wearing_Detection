@@ -1,0 +1,17 @@
+.edit-form {
+    -fx-spacing: 10;
+}
+
+.edit-btn {
+    -fx-background-color: transparent;
+    -fx-border-color: -fx-semi-dark;
+    -fx-border-style: solid;
+    -fx-border-radius: 2px;
+    -fx-border-width: 2px;
+    -fx-padding: 3px 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-semi-dark;
+    -fx-font-family: Arial;
+    -fx-font-size: 12px;
+    -fx-cursor: hand;
+}

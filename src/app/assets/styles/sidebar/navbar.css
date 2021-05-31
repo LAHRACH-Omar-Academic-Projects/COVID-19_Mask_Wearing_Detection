@@ -1,0 +1,43 @@
+.navbar {
+    -fx-spacing: 35;
+}
+
+.navbar-section {
+    -fx-spacing: 10;
+}
+
+.section-title {
+    -fx-padding: 15px;
+    -fx-text-fill: -fx-middle;
+    -fx-font-weight: bold;
+}
+
+.section-item-container {
+    -fx-spacing: 5;
+}
+
+.section-item {
+    -fx-pref-width: 220px;
+    -fx-pref-height: 30px;
+    -fx-background-radius: 5px;
+    -fx-padding: 0px 15px;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.section-item:hover {
+    -fx-background-color: -fx-semi-light;
+    -fx-cursor: hand;
+}
+
+.item-label {
+    -fx-text-fill: -fx-semi-dark;
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-padding: 0px 5px;
+}
+
+.add-icon {
+    -fx-cursor: hand;
+    -fx-padding: 5px 6px;
+    -fx-border-width: 1px;
+}

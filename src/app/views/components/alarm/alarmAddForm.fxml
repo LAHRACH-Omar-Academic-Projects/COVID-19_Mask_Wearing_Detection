@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+
+<?import javafx.scene.control.Label?>
+<VBox
+        xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="app.controllers.views.components.alarm.AlarmAddFormController"
+        styleClass="alarm-add-form">
+
+    <!-- Title -->
+    <Label styleClass="alarm-add-title">Ajouter une nouvelle alarme</Label>
+    <!-- Name Input -->
+    <TextField fx:id="nameInput" styleClass="alarm-name-input" promptText="Nom de l'alarme"/>
+    <!-- Choose File -->
+    <Button fx:id="chooseFile" styleClass="alarm-choose-file" text="Choisissez un fichier"/>
+    <!-- Add Button -->
+    <Button fx:id="addBtn" styleClass="alarm-add-btn" text="Ajouter" alignment="CENTER_RIGHT"/>
+</VBox>

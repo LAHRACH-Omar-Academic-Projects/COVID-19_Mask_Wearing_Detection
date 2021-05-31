@@ -1,0 +1,32 @@
+.camera-container {
+    -fx-effect: dropshadow(three-pass-box, -fx-middle, 2, 0, 0, 0);
+    -fx-border-radius: 2px;
+    -fx-background-color: -fx-light;
+}
+
+.info-box {
+    -fx-border-width: 1px 0px 0px 0px;
+    -fx-border-color: #b3b3b3;
+    -fx-border-style: solid;
+    -fx-border-radius: 2px;
+}
+
+.startButton  {
+    -fx-background-color: transparent;
+    -fx-border-color: -fx-green;
+    -fx-border-style: solid;
+    -fx-border-radius: 2px;
+    -fx-border-width: 2px;
+    -fx-padding: 3px 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-green;
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+    -fx-cursor: hand;
+}
+
+.startButton:hover {
+    -fx-text-fill: -fx-light;
+    -fx-background-color: -fx-green;
+    -fx-background-insets: 0;
+}

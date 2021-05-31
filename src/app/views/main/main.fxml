@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import java.net.URL?>
+
+<BorderPane
+        xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="app.controllers.views.main.MainController"
+        styleClass="main">
+
+    <!-- Header -->
+    <top>
+        <fx:include fx:id="header" source="header.fxml"/>
+    </top>
+
+    <!-- Container -->
+    <center>
+        <fx:include fx:id="container" source="container.fxml"/>
+    </center>
+
+    <!-- Styles -->
+    <stylesheets>
+        <URL value="@../../assets/styles/main/main.css"/>
+    </stylesheets>
+</BorderPane>

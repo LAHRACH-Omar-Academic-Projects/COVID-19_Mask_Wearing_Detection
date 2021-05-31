@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import java.net.URL?>
+
+<BorderPane
+        xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="app.controllers.views.sidebar.SidebarController"
+        styleClass="sidebar">
+
+    <!-- Brand -->
+    <top>
+        <fx:include source="brand.fxml"/>
+    </top>
+
+    <!-- Navbar -->
+    <center>
+        <fx:include fx:id="navbar" source="navbar.fxml"/>
+    </center>
+
+    <!-- Styles -->
+    <stylesheets>
+        <URL value="@../../assets/styles/sidebar/sidebar.css"/>
+    </stylesheets>
+</BorderPane>

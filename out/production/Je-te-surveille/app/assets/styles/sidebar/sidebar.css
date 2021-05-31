@@ -1,0 +1,6 @@
+.sidebar {
+    -fx-effect: dropshadow(three-pass-box, -fx-middle, 10, 0, 0, 0);
+    -fx-border-radius: 2px;
+    -fx-background-color: -fx-light;
+    -fx-pref-width: 250px;
+}

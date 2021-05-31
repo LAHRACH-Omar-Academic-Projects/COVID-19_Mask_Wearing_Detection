@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import java.net.URL?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<fx:root type="javafx.scene.control.ListCell" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+    <graphic>
+        <HBox styleClass="alarmItem">
+            <!-- Play Button -->
+            <AnchorPane fx:id="playBtn" styleClass="playBtn">
+                <ImageView fx:id="playImage" fitWidth="18" fitHeight="18">
+                    <Image url="@../../../assets/icons/play.png"/>
+                </ImageView>
+                <ImageView fx:id="pauseImage" fitWidth="18" fitHeight="18" visible="false">
+                    <Image url="@../../../assets/icons/pause.png"/>
+                </ImageView>
+            </AnchorPane>
+
+            <!-- Alarm Name -->
+            <Label fx:id="alarmName" styleClass="alarmName"/>
+
+            <!-- Delete Button -->
+            <HBox fx:id="deleteBtn" styleClass="deleteBtn">
+                <ImageView fitWidth="15" fitHeight="15">
+                    <Image url="@../../../assets/icons/trashcan.png"/>
+                </ImageView>
+            </HBox>
+
+            <RadioButton fx:id="radioBtn"/>
+        </HBox>
+    </graphic>
+
+    <!-- Styles -->
+    <stylesheets>
+        <URL value="@../../../assets/styles/components/alarm/alarmCell.css"/>
+    </stylesheets>
+</fx:root>

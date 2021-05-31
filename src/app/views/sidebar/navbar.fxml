@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import java.net.URL?>
+
+<VBox
+        xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="app.controllers.views.sidebar.NavbarController"
+        styleClass="navbar">
+
+    <!-- First Section -->
+    <VBox styleClass="navbar-section">
+        <VBox.margin>
+            <Insets left="10" right="10"/>
+        </VBox.margin>
+
+        <!-- Title -->
+        <Label styleClass="section-title">RECUEILLIE</Label>
+
+        <!-- First Item -->
+        <VBox fx:id="container0" styleClass="section-item-container">
+            <HBox fx:id="item0" styleClass="section-item">
+                <!-- Item Icon -->
+                <ImageView fitWidth="18" fitHeight="18">
+                    <Image url="@../../assets/icons/detective.png"/>
+                </ImageView>
+                <!-- Item Label -->
+                <Label styleClass="item-label">Personnes détectées</Label>
+            </HBox>
+        </VBox>
+
+        <!-- Second Item -->
+        <VBox fx:id="container1" styleClass="section-item-container">
+            <HBox fx:id="item1" styleClass="section-item">
+                <!-- Item Icon -->
+                <ImageView fitWidth="18" fitHeight="18">
+                    <Image url="@../../assets/icons/camera.png"/>
+                </ImageView>
+                <!-- Item Label -->
+                <Label styleClass="item-label">Caméras IP</Label>
+            </HBox>
+        </VBox>
+    </VBox>
+
+    <!-- Second Section -->
+    <VBox styleClass="navbar-section">
+        <VBox.margin>
+            <Insets left="10" right="10"/>
+        </VBox.margin>
+
+        <!-- Title -->
+        <Label styleClass="section-title">PARAMÈTRES</Label>
+
+        <HBox>
+            <!-- First Item -->
+            <VBox fx:id="container2" styleClass="section-item-container">
+                <HBox fx:id="item2" styleClass="section-item">
+                    <!-- Item Icon -->
+                    <ImageView fitWidth="18" fitHeight="18">
+                        <Image url="@../../assets/icons/alarm.png"/>
+                    </ImageView>
+                    <!-- Item Label -->
+                    <Label styleClass="item-label">Alarmes</Label>
+                </HBox>
+            </VBox>
+            <!-- Add icon -->
+            <VBox fx:id="alarmAddIcon" styleClass="add-icon">
+                <ImageView fitWidth="18" fitHeight="18">
+                    <Image url="@../../assets/icons/add-alarm.png"/>
+                </ImageView>
+            </VBox>
+        </HBox>
+    </VBox>
+
+    <!-- Styles -->
+    <stylesheets>
+        <URL value="@../../assets/styles/sidebar/navbar.css"/>
+    </stylesheets>
+</VBox>

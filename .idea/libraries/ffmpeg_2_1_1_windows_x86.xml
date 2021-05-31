@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="ffmpeg-2.1.1-windows-x86">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../IP-Camera-Java-CV-Libraries-master/IP-Camera-Java-CV-Libraries-master/ffmpeg-2.1.1-windows-x86.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../IP-Camera-Java-CV-Libraries-master/IP-Camera-Java-CV-Libraries-master/ffmpeg-2.1.1-windows-x86_64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../IP-Camera-Java-CV-Libraries-master/IP-Camera-Java-CV-Libraries-master/javacpp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../IP-Camera-Java-CV-Libraries-master/IP-Camera-Java-CV-Libraries-master/javacv-windows-x86.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../IP-Camera-Java-CV-Libraries-master/IP-Camera-Java-CV-Libraries-master/javacv-windows-x86_64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../IP-Camera-Java-CV-Libraries-master/IP-Camera-Java-CV-Libraries-master/javacv.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../IP-Camera-Java-CV-Libraries-master/IP-Camera-Java-CV-Libraries-master/opencv-2.4.8-windows-x86.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../IP-Camera-Java-CV-Libraries-master/IP-Camera-Java-CV-Libraries-master/opencv-2.4.8-windows-x86_64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

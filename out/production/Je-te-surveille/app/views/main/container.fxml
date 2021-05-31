@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<BorderPane
+        xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="app.controllers.views.main.ContainerController"
+        styleClass="container"
+        fx:id="container">
+
+    <!-- Camera Selection -->
+    <top>
+        <HBox styleClass="cameras-list-container">
+            <BorderPane.margin>
+                <Insets left="15" right="15" top="15"/>
+            </BorderPane.margin>
+            <!-- List Of Cameras -->
+            <ComboBox fx:id="cameras" styleClass="cameras-list" promptText="Sélectionnez la caméra">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+
+                    </FXCollections>
+                </items>
+            </ComboBox>
+        </HBox>
+    </top>
+
+    <!-- Cameras Display -->
+    <center>
+        <StackPane fx:id="camerasDisplayPanel" styleClass="cameras-display-container">
+            <!-- Play Button -->
+            <BorderPane fx:id="playBtnPanel" styleClass="play-btn-container">
+                <BorderPane.margin>
+                    <Insets left="15" right="15" top="15" bottom="15"/>
+                </BorderPane.margin>
+                <!-- Play Button Icon -->
+                <center>
+                    <ImageView fx:id="playBtn" styleClass="play-btn" fitHeight="100" fitWidth="100">
+                        <Image url="@../../assets/icons/play.png"/>
+                    </ImageView>
+                </center>
+            </BorderPane>
+        </StackPane>
+    </center>
+
+    <!-- Styles -->
+    <stylesheets>
+        <URL value="@../../assets/styles/main/container.css"/>
+    </stylesheets>
+</BorderPane>

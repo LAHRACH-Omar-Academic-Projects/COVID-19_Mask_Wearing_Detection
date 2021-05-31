@@ -1,0 +1,15 @@
+.personItem {
+    -fx-border-color: -fx-dark;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+    -fx-border-radius: 4px;
+}
+
+.numberOfDetections {
+    -fx-padding: 0px 0px 0px 10px;
+}
+
+.deleteBtn {
+    -fx-padding: 0px 5px 0px 80px;
+}
